@@ -1,0 +1,216 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+  width: 100%;
+  background: url("../images/header.png") left top no-repeat, url("../images/bgtile.png") left top repeat;
+  background-size: 100%, auto;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-style: italic;
+  font-weight: 500;
+  color: orange;
+  border-bottom: solid 1px black;
+}
+
+a:hover {
+  color: black;
+  border-bottom: solid 1px orange;
+  font-weight: bold;
+  font-style: normal;
+}
+
+h1 {
+  font-weight: bold;
+  /*text-shadow: 2px 2px 40px grey;*/
+  text-align: center;
+  border-top: solid 1px orange;
+  border-bottom: solid 1px orange;
+}
+
+h3 {
+  font-style: italic;
+  font-weight: bold;
+}
+
+h4 {
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+    border-bottom: solid 1px orange;
+    width: 250px;
+}
+
+h5 {
+  font-style: italic;
+  margin: 0;
+  padding: 15px 0px 0px 0px;
+  border-top: solid 1px orange;
+}
+
+p {
+  text-indent: 30px
+}
+
+ul {
+  margin: 2px 0px 20px 0px;
+}
+
+.title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  display: flex;
+  text-indent: 0px;
+  justify-content: center;
+  max-width: 100%;
+  font-size: 70px;
+  padding: 0;
+  margin: 0;
+}
+
+.nad {
+  color: black;
+  padding: 0px 15px;
+  text-transform: lowercase;
+  background-color: orange;
+  border-left: solid black 5px;
+  border-top: solid black 5px;
+  border-bottom: solid black 5px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.ext {
+  color: orange;
+  padding: 5px 15px 0px 15px;
+  text-transform: uppercase;
+  background-color: black;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.intro {
+  text-align: center;
+}
+
+.logo {
+  max-width: 100%;
+  max-height: 90%;
+  padding-top: 30px;
+}
+
+.sections {
+  max-width: 75%;
+  margin: 30px auto;
+  background: url("../images/raptorblack.png") bottom right no-repeat;
+  background-color: white;
+  background-size: 15%;
+  padding: 20px;
+  border: solid 1.5px orange;
+  border-radius: 10px;
+  box-shadow: 6px 10px 90px rgba(225, 228, 233, .2);
+}
+
+.hl {
+  font-style: italic;
+}
+
+.arkServers {
+  text-align: center;
+}
+
+.arkServers a img {
+  max-width: 100%;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0px 12px 40px grey;
+}
+
+.arkServers a {
+  border: none;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-style: italic;
+  font-size: 14px;
+  padding: 12px;
+  margin-bottom: 30px;
+}
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .sections {
+      max-width: 86%;
+    }
+  }
+
+/*
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  .intro {
+    background: url("../images/bg-header.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 600px;
+    overflow: hidden;
+    text-align: center;
+  }
+  .logo {
+    max-width: 75%;
+  }
+  .content h1 {
+    font-size: 200%;
+  }
+  .button {
+    display: none;
+  }
+  .sections {
+    max-width: 92%;
+    margin: 25px;
+    padding: 15px;
+  }
+}
+
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .intro {
+      background: url("../images/bg-header.jpg") no-repeat center center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      height: 600px;
+      overflow: hidden;
+      text-align: center;
+    }
+    .logo {
+      max-width: 75%;
+    }
+    .content h1 {
+      font-size: 200%;
+    }
+    .button {
+      display: none;
+    }
+    .sections {
+      max-width: 92%;
+      margin: 25px;
+      padding: 15px;
+    }
+}
+*/
